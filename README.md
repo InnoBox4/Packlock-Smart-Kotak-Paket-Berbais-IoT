@@ -1,7 +1,7 @@
 # 📥Packlock
 # Smart-Kotak-Paket-Berbasis-IoT
 Proyek IoT untuk membuat kotak paket pintar dengan deteksi otomatis, kontrol pintu berbasis sensor, dan pemantauan status real-time melalui web/app.
-# 📘Deskripsi proyek
+# 📘Deskripsi Proyek
 Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang aman dan pintar semakin meningkat. Packlock hadir sebagai solusi inovatif yang menggabungkan teknologi modern dengan konsep kotak penyimpanan. Dengan fitur pengamanan berbasis elektronik dan konektivitas pintar, Packlock diharapkan dapat meningkatkan keamanan dan kemudahan pengguna dalam menyimpan barang-barang penting.
 # 📌Tujuan 
 - Merancang kotak penyimpanan pintar berbasis teknologi.
