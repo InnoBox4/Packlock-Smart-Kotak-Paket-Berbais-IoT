@@ -10,7 +10,7 @@ Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang am
 # 🧠Komponen Utama 
 | Komponen | Fungsi                           | 
 |---------|-----------------------------------|                       
-|Arduino Nano| (pakai IC ATmega328P)|
+|Arduino Nano| |
 | Ultrasonic Sensor HC-SR04  | deteksi pintu depan tertutup atau tidak                       |
 |Obstacle Avoidance Sensor FC-51 |deteksi paket masuk
 |Reed Switch + Magnet | deteksi pintu belakang terbuka/tertutup)
