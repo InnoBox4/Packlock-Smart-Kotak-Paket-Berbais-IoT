@@ -7,4 +7,12 @@ Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang am
 - Merancang kotak penyimpanan pintar berbasis teknologi.
 - Mengimplementasikan sistem pengamanan berbasis password atau biometrik.
 - Membuat prototype Packlock yang berfungsi optimal.
-# 🧠Komponen Utama
+# 🧠Komponen Utama 
+| Komponen | Fungsi                           | 
+|---------|-----------------------------------|                       
+|Arduino Nano| (pakai IC ATmega328P)|
+| Ultrasonic Sensor HC-SR04  | deteksi pintu depan tertutup atau tidak                       |
+|Obstacle Avoidance Sensor FC-51 |deteksi paket masuk
+|Reed Switch + Magnet | deteksi pintu belakang terbuka/tertutup)
+|Servo Motor (SG90 / MG90S)|untuk membuka kunci/pintu|
+
