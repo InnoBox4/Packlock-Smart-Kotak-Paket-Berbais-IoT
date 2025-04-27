@@ -1,0 +1,168 @@
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+#include <stdio.h>
+
+#define TRIG_PIN PD3
+#define ECHO_PIN PD2
+#define SERVO_PIN PB1
+
+#define BUKA_DISTANCE 20
+#define TUTUP_DISTANCE 25
+
+volatile uint8_t echo_start = 0;
+volatile uint32_t echo_time = 0;
+volatile uint16_t distance = 0;
+
+uint8_t pintu_terbuka = 0;
+uint8_t pintu_tutup_kirim = 0;  // Flag untuk memastikan "Tutup Pintu" hanya dikirim sekali
+
+void pwm_init()
+{
+    DDRB |= (1 << SERVO_PIN);
+    TCCR1A = (1 << COM1A1) | (1 << WGM11);
+    TCCR1B = (1 << WGM13) | (1 << WGM12) | (1 << CS11);
+    ICR1 = 39999; // 20ms period
+}
+
+void servo_write(uint8_t angle)
+{
+    OCR1A = 1000 + ((uint32_t)angle * 3800) / 180;
+}
+
+void serial_init()
+{
+    uint16_t ubrr = 103;
+    UBRR0H = (unsigned char)(ubrr >> 8);
+    UBRR0L = (unsigned char)ubrr;
+    UCSR0B = (1 << TXEN0);
+    UCSR0C = (1 << UCSZ01) | (1 << UCSZ00);
+}
+
+void serial_send_string(const char *str)
+{
+    while (*str)
+    {
+        while (!(UCSR0A & (1 << UDRE0)));
+        UDR0 = *str++;
+    }
+}
+
+void ultrasonic_init()
+{
+    DDRD |= (1 << TRIG_PIN);  // Trig output
+    DDRD &= ~(1 << ECHO_PIN); // Echo input
+
+    // Enable External Interrupt INT0
+    EICRA |= (1 << ISC00); // Trigger any logical change
+    EICRA &= ~(1 << ISC01);
+    EIMSK |= (1 << INT0);
+
+    sei(); // Enable global interrupt
+}
+
+void trigger_ultrasonic()
+{
+    PORTD |= (1 << TRIG_PIN);
+    _delay_us(10);
+    PORTD &= ~(1 << TRIG_PIN);
+}
+
+// Interrupt untuk Echo pin change
+ISR(INT0_vect)
+{
+    if (PIND & (1 << ECHO_PIN))
+    {
+        // Rising edge detected, mulai hitung
+        echo_start = 1;
+        echo_time = 0;
+    }
+    else
+    {
+        // Falling edge detected, selesai hitung
+        if (echo_start)
+        {
+            distance = echo_time / 58;
+            echo_start = 0;
+        }
+    }
+}
+
+// Interrupt untuk Timer0 Overflow (setiap 1024us kurang lebih)
+ISR(TIMER0_OVF_vect)
+{
+    if (echo_start)
+    {
+        echo_time += 1024 / 8; // Timer0 prescaler 8
+    }
+}
+
+void timer0_init()
+{
+    TCCR0A = 0;
+    TCCR0B = (1 << CS01); // Prescaler 8
+    TIMSK0 |= (1 << TOIE0); // Enable Timer0 overflow interrupt
+}
+
+int main(void)
+{
+    pwm_init();
+    serial_init();
+    ultrasonic_init();
+    timer0_init();
+
+    // Cek jarak awal dan kirim "Tutup Pintu" jika jarak lebih dari TUTUP_DISTANCE
+    trigger_ultrasonic();
+    _delay_ms(100);
+    if (distance >= TUTUP_DISTANCE && !pintu_tutup_kirim)
+    {
+        serial_send_string("Tutup Pintu\n");  // Kirim "Tutup Pintu" sekali saja
+        servo_write(0);  // Pastikan pintu tertutup di awal
+        pintu_tutup_kirim = 1; // Set flag supaya tidak mengirim "Tutup Pintu" lagi
+    }
+
+    while (1)
+    {
+        trigger_ultrasonic();
+        _delay_ms(100);
+
+        // Jika jarak lebih kecil atau sama dengan BUKA_DISTANCE
+        if (distance > 0 && distance <= BUKA_DISTANCE)
+        {
+            if (!pintu_terbuka)
+            {
+                servo_write(90); // Buka pintu
+                serial_send_string("Buka Pintu\n");
+                pintu_terbuka = 1;
+                pintu_tutup_kirim = 0; // Reset flag agar "Tutup Pintu" bisa dikirim jika perlu
+            }
+        }
+        // Jika jarak lebih besar dari TUTUP_DISTANCE
+        else if (distance >= TUTUP_DISTANCE)
+        {
+            if (pintu_terbuka)  // Jika pintu terbuka, maka tutup pintu
+            {
+                servo_write(0);  // Tutup pintu
+                serial_send_string("Tutup Pintu\n");
+                pintu_terbuka = 0;
+                pintu_tutup_kirim = 1; // Flag agar tidak mengirim "Tutup Pintu" lagi
+            }
+        }
+        else
+        {
+            // Jika jarak tidak dalam kondisi buka atau tutup
+            if (pintu_terbuka)
+            {
+                // Pintu tetap terbuka jika jarak masih dalam rentang buka
+                servo_write(90); // Jaga agar pintu tetap terbuka
+            }
+
+            // Pastikan jika jarak lebih besar dari TUTUP_DISTANCE, kirim serial "Tutup Pintu"
+            if (distance >= TUTUP_DISTANCE && pintu_tutup_kirim == 0)
+            {
+                serial_send_string("Tutup Pintu\n");
+                pintu_tutup_kirim = 1; // Set flag agar tidak mengirim "Tutup Pintu" lagi
+            }
+        }
+    }
+}
