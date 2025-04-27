@@ -1,0 +1,77 @@
+#include <avr/io.h>
+#include <util/delay.h>
+#include <stdbool.h>
+
+void USART_Init(unsigned int ubrr) {
+    UBRR0H = (unsigned char)(ubrr>>8);
+    UBRR0L = (unsigned char)ubrr;
+    UCSR0B = (1<<TXEN0);
+    UCSR0C = (1<<UCSZ01) | (1<<UCSZ00);
+}
+
+void USART_Transmit(unsigned char data) {
+    while (!(UCSR0A & (1<<UDRE0)));
+    UDR0 = data;
+}
+
+void USART_SendString(const char* str) {
+    while (*str) {
+        USART_Transmit(*str++);
+    }
+}
+
+void USART_SendNumber(uint8_t num) {
+    if (num >= 10) {
+        USART_Transmit('0' + (num / 10));
+    }
+    USART_Transmit('0' + (num % 10));
+}
+
+int main(void) {
+    DDRD |= (1 << PD6);   // PD6 sebagai output (LED)
+    DDRD &= ~(1 << PD4);  // PD4 sebagai input (Push button)
+    PORTD |= (1 << PD4);  // Pull-up resistor aktif
+
+    USART_Init(103);  // 9600 baudrate @ 16MHz
+
+    uint8_t paket = 1;          // Mulai dari paket 1
+    uint32_t timer = 0;         // Waktu sejak terakhir klik
+    bool buttonPrev = true;     // Status tombol sebelumnya (HIGH = belum ditekan)
+
+    // Saat awal hidup, kirim "Tidak ada paket"
+    USART_SendString("Tidak ada paket\r\n");
+
+    while (1) {
+        bool buttonNow = (PIND & (1 << PD4)); // Baca tombol
+
+        if (!buttonNow && buttonPrev) { // Tombol baru ditekan
+            PORTD |= (1 << PD6);   // LED nyala
+
+            USART_SendString("Ada paket ");
+            USART_SendNumber(paket);
+            USART_SendString("\r\n");
+
+            paket++;         // Tambah paket
+            timer = 0;        // Reset timer
+            _delay_ms(50);    // Debounce
+        }
+
+        if (buttonNow && !buttonPrev) { // Tombol dilepas
+            PORTD &= ~(1 << PD6);  // LED mati
+            _delay_ms(50);         // Debounce
+        }
+
+        buttonPrev = buttonNow;
+
+        _delay_ms(10); // Delay dasar 10ms
+        timer += 10;   // Tambah waktu
+
+        if (timer >= 10000) { // 10 detik tidak ditekan
+            if (paket != 1) { // Kalau sudah pernah klik
+                paket = 1; // Reset paket
+                USART_SendString("Tidak ada paket\r\n"); // <-- Ganti jadi "Tidak ada paket"
+            }
+            timer = 0; // Reset timer
+        }
+    }
+}
