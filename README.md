@@ -15,4 +15,3 @@ Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang am
 |Obstacle Avoidance Sensor FC-51 |deteksi paket masuk
 |Reed Switch + Magnet | deteksi pintu belakang terbuka/tertutup)
 |Servo Motor (SG90 / MG90S)|untuk membuka kunci/pintu|
-
