@@ -7,8 +7,8 @@
 | 2123600011    | M . Ghozali          |   UI/UX Designer | [Ratu](https://github.com/nataratungga)
 | 2123600013    | Gede Satya Prawira Negara        |    Programmer      | [Bisma](https://github.com/Bismaap)
 | 2123600008    | M.Ragita Dwi Yuliansyah               | Project Manager | [Rohmat](https://github.com/NurRohmatHidayat)
-| 2123600012    |  Setyo Budi Utomo              | UI/UX Designer     | [Ezar](https://github.com/EzarPrasetya)
-
+| 2123600012    |  Setyo Budi Utomo              |Mekanik     | [Ezar](https://github.com/EzarPrasetya)
+| 2123500021    |  Adam Surya Waskito            | UI/UX Designer
 
 Proyek IoT untuk membuat kotak paket pintar dengan deteksi otomatis, kontrol pintu berbasis sensor, dan pemantauan status real-time melalui web/app.
 # 📘Deskripsi Proyek
