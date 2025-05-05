@@ -15,6 +15,7 @@ Proyek IoT untuk membuat kotak paket pintar dengan deteksi otomatis, kontrol pin
 Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang aman dan pintar semakin meningkat. Packlock hadir sebagai solusi inovatif yang menggabungkan teknologi modern dengan konsep kotak penyimpanan. Dengan fitur pengamanan berbasis elektronik dan konektivitas pintar, Packlock diharapkan dapat meningkatkan keamanan dan kemudahan pengguna dalam menyimpan barang-barang penting.
 # 📌Tujuan 
 - Merancang kotak penyimpanan pintar berbasis teknologi.
+- ![Image](https://github.com/user-attachments/assets/a21ae2d6-37fa-4f67-ae65-229c92bacb7a)
 - Mengimplementasikan sistem pengamanan berbasis password atau biometrik.
 - Membuat prototype Packlock yang berfungsi optimal.
 # 🧠Komponen Utama 
