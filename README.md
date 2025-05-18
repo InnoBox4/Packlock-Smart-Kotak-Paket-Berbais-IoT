@@ -65,6 +65,19 @@ Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang am
 6. Tempelkan karton pada kayu menggunakan lem kayu dan beri paku agar bisa merekat dengan sempurna.
 7. Potong karton jika terdapat sisa yang berlebihan agar terlihat rapih.
 
+## [Hardware](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Hardware)
 
+Berikut ini adalah hasil skematik rangkaian Smart Building System IoT menggunakan software KiCad.
+<div align="center">
+<img src="Dokumentasi/Smart Building SCH.png" width = 700>
+</div>
 
+Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+<div align="center">
+<img src="Dokumentasi/Smart Building Board.png" width = 700>
+</div>
 
+Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+<div align="center">
+<img src="Dokumentasi/Smart Building 3D Board.jpg" width = 700>
+</div>
