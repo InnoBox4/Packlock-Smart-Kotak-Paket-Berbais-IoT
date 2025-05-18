@@ -81,4 +81,6 @@ Berikut ini adalah hasil 3D dari rangkaian Smart Kotak Paket Berbasis IoT menggu
 <img src="HARDWARE/3D_PCB_Desain3.jpg" width = 700>
 </div>
 
--![Image](https://github.com/user-attachments/assets/a21ae2d6-37fa-4f67-ae65-229c92bacb7a)
+<div align="center">
+<![Image](https://github.com/user-attachments/assets/a21ae2d6-37fa-4f67-ae65-229c92bacb7a)>
+</div>
