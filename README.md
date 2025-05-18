@@ -3,7 +3,11 @@
 # Packlock
 # Smart-Kotak-Paket-Berbasis-IoT
 
-Proyek ini bertujuan untuk mengembangkan smart kotak paket berbasis IoT bernama PackLock, yang berfungsi untuk memantau keberadaan paket secara real-time melalui dashboard web berbasis PHP. Sistem ini menggunakan Arduino Uno sebagai mikrokontroler utama, sensor infrared untuk mendeteksi adanya paket, serta reed switch dan sensor ultrasonik untuk mendeteksi status pintu. Informasi dikirim ke server lokal agar pengguna dapat memantau status kotak dari web secara langsung.
+Proyek ini bertujuan untuk mengembangkan smart kotak paket berbasis IoT bernama PackLock, yang memungkinkan pengguna memantau status keberadaan paket secara real-time melalui dashboard web berbasis PHP. Sistem ini dirancang sebagai solusi pengiriman barang tanpa tatap muka yang aman dan efisien, terutama di era digital saat ini. PackLock dibangun menggunakan Arduino Uno sebagai mikrokontroler utama yang mengatur pembacaan sensor, kontrol aktuator, dan komunikasi data ke server lokal.
+
+Untuk mendeteksi keberadaan paket, sistem menggunakan sensor infrared yang dipasang di dalam kotak. Selain itu, sensor ultrasonik dan reed switch digunakan untuk memantau status pintu depan dan pintu belakang kotak, apakah dalam keadaan tertutup atau terbuka. Ketika kondisi berubah, sistem akan mengirimkan data ke server melalui komunikasi serial dan hasilnya ditampilkan pada web secara real-time. Pengguna juga dapat menerima notifikasi dan melakukan kontrol jarak jauh melalui dashboard, termasuk membuka pintu kotak secara otomatis.
+
+Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk menyimpan dan menampilkan status terkini dari kotak paket. Dengan antarmuka yang sederhana, pengguna dapat dengan mudah mengetahui apakah terdapat paket di dalam kotak dan apakah pintu dalam keadaan tertutup atau terbuka. Sistem ini diharapkan dapat meningkatkan keamanan dan efisiensi dalam proses pengiriman dan pengambilan paket di lingkungan rumah atau perkantoran cerdas (smart building).
 
 # Team Member :
 |      NRP      |            Nama             |         Jobdesk          |
@@ -81,6 +85,21 @@ Berikut ini adalah hasil 3D dari rangkaian Smart Kotak Paket Berbasis IoT menggu
 <img src="HARDWARE/3D_PCB_Desain3.jpg" width = 700>
 </div>
 
+## [Desain 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESIGN)
+
+Berikut ini adalah Desain 3D Packlock Bagian Dalam.
 <div align="center">
-<-![Image](https://github.com/user-attachments/assets/a21ae2d6-37fa-4f67-ae65-229c92bacb7a)>
+<img src="DESIGN/Design 0.2 Bagian Dalam.png" width = 700>
 </div>
+
+Berikut ini adalah Desain 3D Packlock Tampak Depan.
+<div align="center">
+<img src="DESIGN/Design 0.2 Tampak Depan.png" width = 700>
+</div>
+
+## Diagram Block
+<img src="Dokumentasi/Diagram Block.png">
+
+## Diagram Arsitektur System
+Berikut adalah alur Diagram untuk mengirim data sensor dari publisher ke database
+<img src="Dokumentasi/Diagram System.png">
