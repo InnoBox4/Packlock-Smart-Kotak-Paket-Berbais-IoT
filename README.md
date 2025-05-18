@@ -1,8 +1,9 @@
 <img src="ASSETS/Poster Packlock.png">
 
-# 📥Packlock
+# Packlock
 # Smart-Kotak-Paket-Berbasis-IoT
-Proyek IoT untuk membuat kotak paket pintar dengan deteksi otomatis, kontrol pintu berbasis sensor, dan pemantauan status real-time melalui web/app.
+
+Proyek ini bertujuan untuk mengembangkan smart kotak paket berbasis IoT bernama PackLock, yang berfungsi untuk memantau keberadaan paket secara real-time melalui dashboard web berbasis PHP. Sistem ini menggunakan Arduino Uno sebagai mikrokontroler utama, sensor infrared untuk mendeteksi adanya paket, serta reed switch dan sensor ultrasonik untuk mendeteksi status pintu. Informasi dikirim ke server lokal agar pengguna dapat memantau status kotak dari web secara langsung.
 
 # Team Member :
 |      NRP      |            Nama             |         Jobdesk          |
