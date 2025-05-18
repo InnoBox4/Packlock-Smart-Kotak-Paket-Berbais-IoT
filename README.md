@@ -26,3 +26,22 @@ Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang am
 |Obstacle Avoidance Sensor FC-51 |deteksi paket masuk
 |Reed Switch + Magnet | deteksi pintu belakang terbuka/tertutup)
 |Servo Motor (SG90 / MG90S)|untuk membuka kunci/pintu|
+# 🛠 ALAT & BAHAN
+- Balok kayu Diameter 2 CM (5 Buah)
+- Karton
+- Palu
+- Paku Kecil
+- Meteran
+- Lem kayu
+- Cat Kayu
+- Gergaji
+- Penggaris
+- bulpoint
+# STEP PENGERJAAN
+1. Ukur kayu menggunakan meteran dan beri tanda menggunakan bulpoint agar mudah untuk proses pemotongan.
+2. Potong kayu menggunakan gergaji dengan panjang tinggi 1 Meter (4 Buah), panjang Lebar 46 CM (12 Buah).
+3. Ratakan disetiap ujung yang sudah dipotong biar terlihat rapih kemudian sambung menggunakan paku menjadi bentuk balok.
+4. Jika kayu sudah terpasang menjadi satu maka dilakukan pengecatan.
+5. Potong Karton menggunakan cutter dan dibantu dengan penggaris sebagai alat ukur sesuaikan dengan ukuran misalnya untuk bagian bawah dan atas 50 cm X 50 cm.
+6. Tempelkan karton pada kayu menggunakan lem kayu dan beri paku agar bisa merekat dengan sempurna.
+7. Potong karton jika terdapat sisa yang berlebihan agar terlihat rapih.  
