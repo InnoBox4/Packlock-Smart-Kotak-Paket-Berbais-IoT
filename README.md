@@ -64,7 +64,7 @@ Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang am
 6. Tempelkan karton pada kayu menggunakan lem kayu dan beri paku agar bisa merekat dengan sempurna.
 7. Potong karton jika terdapat sisa yang berlebihan agar terlihat rapih.
 
-## [Hardware]((https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/HARDWARE)
+## [Hardware](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/HARDWARE)
 
 Berikut ini adalah hasil skematik dari rangkaian Smart Kotak Paket Berbasis IoT menggunakan software KiCad.
 <div align="center">
@@ -78,6 +78,7 @@ Berikut ini adalah hasil layout dari rangkaian Smart Kotak Paket Berbasis IoT me
 
 Berikut ini adalah hasil 3D dari rangkaian Smart Kotak Paket Berbasis IoT menggunakan software KiCad.
 <div align="center">
-<img src="HARDWARE/3D_PCB_Desain3.jpg.jpg" width = 700>
+<img src="HARDWARE/3D_PCB_Desain3.jpg" width = 700>
 </div>
-![Image](https://github.com/user-attachments/assets/a21ae2d6-37fa-4f67-ae65-229c92bacb7a)
+
+-![Image](https://github.com/user-attachments/assets/a21ae2d6-37fa-4f67-ae65-229c92bacb7a)
