@@ -34,7 +34,7 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 |Reed Switch + Magnet | deteksi pintu belakang terbuka/tertutup)|
 |Servo Motor (SG90 / MG90S)|untuk membuka pintu|
 
-# ALAT & BAHAN
+# Alat & Bahan
 - Balok kayu Diameter 2 CM (5 Buah)
 - Karton
 - Palu
@@ -46,7 +46,7 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 - Penggaris
 - bulpoint
 
-# STEP PENGERJAAN
+# Langkah-Langkah Pengerjaan
 1. Ukur kayu menggunakan meteran dan beri tanda menggunakan bulpoint agar mudah untuk proses pemotongan.
 2. Potong kayu menggunakan gergaji dengan panjang tinggi 1 Meter (4 Buah), panjang Lebar 46 CM (12 Buah).
    ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/proses%20pemotongan%20kayu.jpg)
@@ -92,7 +92,7 @@ Berikut ini adalah Desain 3D Packlock Tampak Depan.
 
 Berikut ini adalah UI/UX Web Packlock.
 <div align="center">
-<img src="UI/Web Packlock.jpg" width = 700>
+<img src="UI/Web Packlock.jpg">
 </div>
 
 ## Diagram Block
