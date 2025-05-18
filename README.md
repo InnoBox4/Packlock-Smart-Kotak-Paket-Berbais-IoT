@@ -25,7 +25,7 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 >- Program Studi : D3 Teknik Elektronika
 >- Politeknik Elektronika Negeri Surabaya<br>
 
-# 🧠Komponen Utama 
+# Komponen Utama 
 | Komponen |             Fungsi                | 
 |----------|-----------------------------------|                       
 |Arduino Uno| pengontrol sistem |
@@ -34,7 +34,7 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 |Reed Switch + Magnet | deteksi pintu belakang terbuka/tertutup)|
 |Servo Motor (SG90 / MG90S)|untuk membuka pintu|
 
-# 🛠 ALAT & BAHAN
+# ALAT & BAHAN
 - Balok kayu Diameter 2 CM (5 Buah)
 - Karton
 - Palu
@@ -46,7 +46,7 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 - Penggaris
 - bulpoint
 
-# 👷STEP PENGERJAAN
+# STEP PENGERJAAN
 1. Ukur kayu menggunakan meteran dan beri tanda menggunakan bulpoint agar mudah untuk proses pemotongan.
 2. Potong kayu menggunakan gergaji dengan panjang tinggi 1 Meter (4 Buah), panjang Lebar 46 CM (12 Buah).
    ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/proses%20pemotongan%20kayu.jpg)
@@ -88,6 +88,16 @@ Berikut ini adalah Desain 3D Packlock Tampak Depan.
 <img src="DESIGN/Design 0.2 Tampak Depan.png" width = 700>
 </div>
 
+## [UI/UX](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/UI)
+
+Berikut ini adalah UI/UX Web Packlock.
+<div align="center">
+<img src="UI/Web Packlock.jpg" width = 700>
+</div>
+
 ## Diagram Block
 <img src="ASSETS/Blok Diagram System Architecture.jpg">
+
+
+
 
