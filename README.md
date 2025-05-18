@@ -40,8 +40,9 @@ Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang am
 # STEP PENGERJAAN
 1. Ukur kayu menggunakan meteran dan beri tanda menggunakan bulpoint agar mudah untuk proses pemotongan.
 2. Potong kayu menggunakan gergaji dengan panjang tinggi 1 Meter (4 Buah), panjang Lebar 46 CM (12 Buah).
-3. Ratakan disetiap ujung yang sudah dipotong biar terlihat rapih kemudian sambung menggunakan paku menjadi bentuk balok.
-4. Jika kayu sudah terpasang menjadi satu maka dilakukan pengecatan.
-5. Potong Karton menggunakan cutter dan dibantu dengan penggaris sebagai alat ukur sesuaikan dengan ukuran misalnya untuk bagian bawah dan atas 50 cm X 50 cm.
-6. Tempelkan karton pada kayu menggunakan lem kayu dan beri paku agar bisa merekat dengan sempurna.
-7. Potong karton jika terdapat sisa yang berlebihan agar terlihat rapih.  
+   ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMEN/proses%20pemotongan%20kayu.jpg)
+4. Ratakan disetiap ujung yang sudah dipotong biar terlihat rapih kemudian sambung menggunakan paku menjadi bentuk balok.
+5. Jika kayu sudah terpasang menjadi satu maka dilakukan pengecatan.
+6. Potong Karton menggunakan cutter dan dibantu dengan penggaris sebagai alat ukur sesuaikan dengan ukuran misalnya untuk bagian bawah dan atas 50 cm X 50 cm.
+7. Tempelkan karton pada kayu menggunakan lem kayu dan beri paku agar bisa merekat dengan sempurna.
+8. Potong karton jika terdapat sisa yang berlebihan agar terlihat rapih.  
