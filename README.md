@@ -29,7 +29,6 @@ Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang am
 - Mengimplementasikan sistem pengamanan berbasis password atau biometrik.
 - Membuat prototype Packlock yang berfungsi optimal.
 
-- ![Image](https://github.com/user-attachments/assets/a21ae2d6-37fa-4f67-ae65-229c92bacb7a)
 
 # 🧠Komponen Utama 
 | Komponen |             Fungsi                | 
@@ -65,19 +64,20 @@ Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang am
 6. Tempelkan karton pada kayu menggunakan lem kayu dan beri paku agar bisa merekat dengan sempurna.
 7. Potong karton jika terdapat sisa yang berlebihan agar terlihat rapih.
 
-## [Hardware](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Hardware)
+## [Hardware]((https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/HARDWARE)
 
-Berikut ini adalah hasil skematik rangkaian Smart Building System IoT menggunakan software KiCad.
+Berikut ini adalah hasil skematik dari rangkaian Smart Kotak Paket Berbasis IoT menggunakan software KiCad.
 <div align="center">
-<img src="Dokumentasi/Smart Building SCH.png" width = 700>
+<img src="HARDWARE/Skematik_PCB_Desain2.jpg" width = 700>
 </div>
 
-Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+Berikut ini adalah hasil layout dari rangkaian Smart Kotak Paket Berbasis IoT menggunakan software KiCad.
 <div align="center">
-<img src="Dokumentasi/Smart Building Board.png" width = 700>
+<img src="HARDWARE/Layout_PCB_Desain2.jpg" width = 700>
 </div>
 
-Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+Berikut ini adalah hasil 3D dari rangkaian Smart Kotak Paket Berbasis IoT menggunakan software KiCad.
 <div align="center">
-<img src="Dokumentasi/Smart Building 3D Board.jpg" width = 700>
+<img src="HARDWARE/3D_PCB_Desain3.jpg.jpg" width = 700>
 </div>
+![Image](https://github.com/user-attachments/assets/a21ae2d6-37fa-4f67-ae65-229c92bacb7a)
