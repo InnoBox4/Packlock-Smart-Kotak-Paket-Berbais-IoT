@@ -89,8 +89,5 @@ Berikut ini adalah Desain 3D Packlock Tampak Depan.
 </div>
 
 ## Diagram Block
-<img src="Dokumentasi/Diagram Block.png">
+<img src="ASSETS/Blok Diagram System Architecture.jpg">
 
-## Diagram Arsitektur System
-Berikut adalah alur Diagram untuk mengirim data sensor dari publisher ke database
-<img src="Dokumentasi/Diagram System.png">
