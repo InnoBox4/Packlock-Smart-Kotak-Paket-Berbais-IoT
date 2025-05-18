@@ -1,3 +1,5 @@
+<img src="ASSETS/Poster Packlock.png">
+
 # 📥Packlock
 # Smart-Kotak-Paket-Berbasis-IoT
 ## Team Member :
