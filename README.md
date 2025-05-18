@@ -2,7 +2,9 @@
 
 # 📥Packlock
 # Smart-Kotak-Paket-Berbasis-IoT
-## Team Member :
+#Proyek IoT untuk membuat kotak paket pintar dengan deteksi otomatis, kontrol pintu berbasis sensor, dan pemantauan status real-time melalui web/app.
+
+# Team Member :
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
 | 2123600023    | Muhammad Fariz Ibnu T.H  | Hardware Developer       | 
