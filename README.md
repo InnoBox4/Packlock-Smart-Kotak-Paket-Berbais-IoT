@@ -37,7 +37,7 @@ Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang am
 - Gergaji
 - Penggaris
 - bulpoint
-# STEP PENGERJAAN
+# 👷STEP PENGERJAAN
 1. Ukur kayu menggunakan meteran dan beri tanda menggunakan bulpoint agar mudah untuk proses pemotongan.
 2. Potong kayu menggunakan gergaji dengan panjang tinggi 1 Meter (4 Buah), panjang Lebar 46 CM (12 Buah).
    ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/proses%20pemotongan%20kayu.jpg)
