@@ -95,7 +95,7 @@ Berikut ini adalah UI/UX Web Packlock.
 <img src="UI/Web Packlock.jpg">
 </div>
 
-## Diagram Block
+## Blok Diagram
 <img src="ASSETS/Blok Diagram System Architecture.jpg" width = 700>
 
 
