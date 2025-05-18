@@ -82,5 +82,5 @@ Berikut ini adalah hasil 3D dari rangkaian Smart Kotak Paket Berbasis IoT menggu
 </div>
 
 <div align="center">
--![Image](https://github.com/user-attachments/assets/a21ae2d6-37fa-4f67-ae65-229c92bacb7a)
+<-![Image](https://github.com/user-attachments/assets/a21ae2d6-37fa-4f67-ae65-229c92bacb7a)>
 </div>
