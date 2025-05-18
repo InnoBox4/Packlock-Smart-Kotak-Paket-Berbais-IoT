@@ -5,14 +5,14 @@
 Proyek IoT untuk membuat kotak paket pintar dengan deteksi otomatis, kontrol pintu berbasis sensor, dan pemantauan status real-time melalui web/app.
 
 # Team Member :
-|      NRP      |       Nama      |    Jobdesk    |
-| :-----------:|:----------------:| :------------:|
-| 2123600023    | Muhammad Fariz Ibnu T.H     | Hardware Developer       | 
-| 2123600011    | M . Ghozali                 | Mekanik                  | 
-| 2123600013    | Gede Satya Prawira Negara   | Programmer               | 
-| 2123600008    | M.Ragita Dwi Yuliansyah     | Mekanik                  | 
-| 2123600012    |  Setyo Budi Utomo           | Mekanik                  | 
-| 2123500021    |  Adam Surya Waskito         | UI/UX Designer           |
+|      NRP      |            Nama             |         Jobdesk          |
+| :-----------: | :-------------------------: | :----------------------: |
+| 2123500023    | Muhammad Fariz Ibnu T.H     | Hardware Developer       | 
+| 2123500011    | M . Ghozali                 | Mekanik                  | 
+| 2123500013    | Gede Satya Prawira Negara   | Programmer               | 
+| 2123500008    | M . Ragita Dwi Yuliansyah   | Mekanik                  | 
+| 2123500012    | Setyo Budi Utomo            | Mekanik                  | 
+| 2123500021    | Adam Surya Waskito          | UI/UX Designer           |
 
 # 📘Deskripsi Proyek
 Seiring dengan perkembangan teknologi, kebutuhan akan sistem penyimpanan yang aman dan pintar semakin meningkat. Packlock hadir sebagai solusi inovatif yang menggabungkan teknologi modern dengan konsep kotak penyimpanan. Dengan fitur pengamanan berbasis elektronik dan konektivitas pintar, Packlock diharapkan dapat meningkatkan keamanan dan kemudahan pengguna dalam menyimpan barang-barang penting.
