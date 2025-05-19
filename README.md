@@ -34,31 +34,6 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 |Reed Switch + Magnet | deteksi pintu belakang terbuka/tertutup)|
 |Servo Motor (SG90 / MG90S)|untuk membuka pintu|
 
-# Alat & Bahan
-- Balok kayu Diameter 2 CM (5 Buah)
-- Karton
-- Palu
-- Paku Kecil
-- Meteran
-- Lem kayu
-- Cat Kayu
-- Gergaji
-- Penggaris
-- bulpoint
-
-# Langkah-Langkah Pengerjaan
-1. Ukur kayu menggunakan meteran dan beri tanda menggunakan bulpoint agar mudah untuk proses pemotongan.
-2. Potong kayu menggunakan gergaji dengan panjang tinggi 1 Meter (4 Buah), panjang Lebar 46 CM (12 Buah).
-   ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/proses%20pemotongan%20kayu.jpg)
-3. Ratakan disetiap ujung yang sudah dipotong biar terlihat rapih kemudian sambung menggunakan paku menjadi bentuk balok.
-   ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/Kerangka%20sebelum%20di%20cat.jpg)
-4. Jika kayu sudah terpasang menjadi satu maka dilakukan pengecatan.
-   ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/Kerangka%20setelah%20di%20cat.jpg)
-5. Potong Karton menggunakan cutter dan dibantu dengan penggaris sebagai alat ukur sesuaikan dengan ukuran misalnya untuk bagian bawah dan atas 50 cm X 50 cm.
-   ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/Proses%20pemotongan%20karton.jpg)
-6. Tempelkan karton pada kayu menggunakan lem kayu dan beri paku agar bisa merekat dengan sempurna.
-7. Potong karton jika terdapat sisa yang berlebihan agar terlihat rapih.
-
 ## [Hardware](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/HARDWARE)
 
 Berikut ini adalah hasil skematik dari rangkaian Smart Kotak Paket Berbasis IoT menggunakan software KiCad.
@@ -98,6 +73,29 @@ Berikut ini adalah UI/UX Web Packlock.
 ## Blok Diagram
 <img src="ASSETS/Blok Diagram System Architecture.jpg" width = 700>
 
+# Alat & Bahan
+- Balok kayu Diameter 2 CM (5 Buah)
+- Karton
+- Palu
+- Paku Kecil
+- Meteran
+- Lem kayu
+- Cat Kayu
+- Gergaji
+- Penggaris
+- bulpoint
 
+# Langkah-Langkah Pengerjaan
+1. Ukur kayu menggunakan meteran dan beri tanda menggunakan bulpoint agar mudah untuk proses pemotongan.
+2. Potong kayu menggunakan gergaji dengan panjang tinggi 1 Meter (4 Buah), panjang Lebar 46 CM (12 Buah).
+   ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/proses%20pemotongan%20kayu.jpg)
+3. Ratakan disetiap ujung yang sudah dipotong biar terlihat rapih kemudian sambung menggunakan paku menjadi bentuk balok.
+   ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/Kerangka%20sebelum%20di%20cat.jpg)
+4. Jika kayu sudah terpasang menjadi satu maka dilakukan pengecatan.
+   ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/Kerangka%20setelah%20di%20cat.jpg)
+5. Potong Karton menggunakan cutter dan dibantu dengan penggaris sebagai alat ukur sesuaikan dengan ukuran misalnya untuk bagian bawah dan atas 50 cm X 50 cm.
+   ![alt text](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/blob/main/DOKUMENTASI/Proses%20pemotongan%20karton.jpg)
+6. Tempelkan karton pada kayu menggunakan lem kayu dan beri paku agar bisa merekat dengan sempurna.
+7. Potong karton jika terdapat sisa yang berlebihan agar terlihat rapih.
 
 
