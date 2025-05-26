@@ -73,14 +73,47 @@ Berikut ini adalah UI/UX Web Packlock.
 ## Blok Diagram
 <img src="ASSETS/Blok Diagram System Architecture.jpg" width = 700>
 
-# Alat & Bahan
-- Balok kayu Diameter 2 CM (5 Buah)
-- Karton
+# Komponen yang digunakan
+
+1.Hardware
+- Arduino Uno
+- Motor Servo
+- Sensor IR Obstacle
+- Sensor Ultrasonik
+- Conector Molex
+- Shield PCB
+- Kabel Jumper
+  
+
+2.Software
+- Arduino IDE
+- Visual Studio Code
+- Kicad
+- Inventor
+- Figma
+- Wokwi
+
+3.Alat 
 - Palu
-- Paku Kecil
 - Meteran
-- Lem kayu
-- Cat Kayu
 - Gergaji
 - Penggaris
 - bulpoint
+- Cutter
+- Gunting
+- Kuas
+- Obeng
+- Lem Tembak
+- Solder 
+  
+4.Bahan
+- Balok kayu Diameter 2 CM (5 Buah)
+- Karton
+- Paku Kecil
+- Lem kayu
+- Cat Kayu
+- Paku Pines
+- Cat putih
+- Timah
+- Solasi 
+
