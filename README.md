@@ -38,7 +38,7 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
 - [Hardware](#Hardware)
 - [Desain 3D](#Desain-3D)
-- [UI/UX](#UI/UX)
+- [UI/UX](#UI-UX)
 - [Blok Diagram](#Blok-Diagram)
 
 ## Komponen Yang Digunakan
