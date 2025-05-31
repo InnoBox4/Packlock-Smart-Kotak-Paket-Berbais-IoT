@@ -122,7 +122,7 @@ Berikut ini adalah Desain 3D Packlock Tampak Depan.
 
 Berikut ini adalah UI/UX Web Packlock.
 <div align="center">
-<img src="UI-UX/Web Packlock.jpg">
+<img src="UI-UX/Web Packlock Final.jpg">
 </div>
 
 ## Blok Diagram
