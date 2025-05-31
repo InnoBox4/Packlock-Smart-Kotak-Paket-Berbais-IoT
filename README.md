@@ -9,6 +9,12 @@ Untuk mendeteksi keberadaan paket, sistem menggunakan sensor infrared yang dipas
 
 Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk menyimpan dan menampilkan status terkini dari kotak paket. Dengan antarmuka yang sederhana, pengguna dapat dengan mudah mengetahui apakah terdapat paket di dalam kotak dan apakah pintu dalam keadaan tertutup atau terbuka. Sistem ini diharapkan dapat meningkatkan keamanan dan efisiensi dalam proses pengiriman dan pengambilan paket di lingkungan rumah atau perkantoran cerdas (smart building).
 
+# Support By :
+>- Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
+>- Mata kuliah : Workshop Mikrokontroller
+>- Program Studi : D3 Teknik Elektronika
+>- Politeknik Elektronika Negeri Surabaya<br>
+
 # Team Member :
 |      NRP      |            Nama             |         Jobdesk          |
 | :-----------: | :-------------------------: | :----------------------: |
@@ -51,7 +57,7 @@ Berikut ini adalah hasil 3D dari rangkaian Smart Kotak Paket Berbasis IoT menggu
 <img src="HARDWARE/3D_PCB_Desain3.jpg" width = 700>
 </div>
 
-## [Desain 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESAIN 3D)
+## [DESAIN 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESAIN 3D)
 
 Berikut ini adalah Desain 3D Packlock Bagian Dalam.
 <div align="center">
