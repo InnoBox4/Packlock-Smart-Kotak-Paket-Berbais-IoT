@@ -51,7 +51,7 @@ Berikut ini adalah hasil 3D dari rangkaian Smart Kotak Paket Berbasis IoT menggu
 <img src="HARDWARE/3D_PCB_Desain3.jpg" width = 700>
 </div>
 
-## [DESAIN 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESAIN 3D)
+## [Desain 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESAIN 3D)
 
 Berikut ini adalah Desain 3D Packlock Bagian Dalam.
 <div align="center">
