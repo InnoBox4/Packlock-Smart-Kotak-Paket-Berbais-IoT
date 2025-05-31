@@ -1,4 +1,4 @@
-<img src="ASSETS/Poster Packlock.png">
+<img src="ASSETS/Logo Packlock.png">
 
 # Packlock
 ## Smart-Kotak-Paket-Berbasis-IoT
