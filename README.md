@@ -40,6 +40,7 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 - [Desain 3D](#Desain-3D)
 - [Desain UI/UX](#Desain-UI/UX)
 - [Blok Diagram](#Blok-Diagram)
+- [Diagram Arsitektur Sistem](#Diagram-Arsitektur-Sistem)
 
 ## Komponen Yang Digunakan
 1.Hardware
@@ -126,6 +127,9 @@ Berikut ini adalah UI/UX Web Packlock.
 </div>
 
 ## Blok Diagram
+<img src="ASSETS/Diagram Arsitektur Sistem.png" width = 700>
+
+## Diagram Arsitektur Sistem
 <img src="ASSETS/Diagram Arsitektur Sistem.png" width = 700>
 
 
