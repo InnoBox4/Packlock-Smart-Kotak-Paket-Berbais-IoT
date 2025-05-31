@@ -25,12 +25,6 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 | 2123500012    | Setyo Budi Utomo            | Mekanik                  | 
 | 2123500021    | Adam Surya Waskito          | UI/UX Designer           |
 
-## Support By :
->- Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
->- Mata kuliah : Workshop Mikrokontroller
->- Program Studi : D3 Teknik Elektronika
->- Politeknik Elektronika Negeri Surabaya<br>
-
 # Komponen Utama 
 | Komponen |             Fungsi                | 
 |----------|-----------------------------------|                       
