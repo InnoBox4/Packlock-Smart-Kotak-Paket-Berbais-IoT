@@ -88,17 +88,17 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 
 Berikut ini adalah hasil skematik dari rangkaian Smart Kotak Paket Berbasis IoT menggunakan software KiCad.
 <div align="center">
-<img src="HARDWARE/Skematik_PCB_Desain2.jpg" width = 700>
+<img src="HARDWARE/Skematik_PCB_Desain_Final.jpg" width = 700>
 </div>
 
 Berikut ini adalah hasil layout dari rangkaian Smart Kotak Paket Berbasis IoT menggunakan software KiCad.
 <div align="center">
-<img src="HARDWARE/Layout_PCB_Desain2.jpg" width = 700>
+<img src="HARDWARE/Layout_PCB_Desain_Final.jpg" width = 700>
 </div>
 
 Berikut ini adalah hasil 3D dari rangkaian Smart Kotak Paket Berbasis IoT menggunakan software KiCad.
 <div align="center">
-<img src="HARDWARE/3D_PCB_Desain3.jpg" width = 700>
+<img src="HARDWARE/3D_PCB_Desain_Final2.jpg" width = 700>
 </div>
 
 ## [Desain 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESAIN%203D)
