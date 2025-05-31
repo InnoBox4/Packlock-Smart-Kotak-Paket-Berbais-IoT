@@ -20,8 +20,8 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 | :-----------: | :-------------------------: | :----------------------: |
 | 2123500023    | Muhammad Fariz Ibnu T.H     | Hardware Developer       | 
 | 2123500011    | M . Ghozali                 | Mekanik                  | 
-| 2123500013    | Gede Satya Prawira Negara   | Programmer               | 
-| 2123500008    | M . Ragita Dwi Yuliansyah   | Mekanik                  | 
+| 2123500013    | Gede Satya Prawira Negara   | Programer               | 
+| 2123500008    | M . Ragita Dwi Yuliansyah   | Project Manager (PM)                  | 
 | 2123500012    | Setyo Budi Utomo            | Mekanik                  | 
 | 2123500021    | Adam Surya Waskito          | UI/UX Designer           |
 
