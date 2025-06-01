@@ -36,11 +36,11 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
+- [Blok Diagram](#Blok-Diagram)
+- [Diagram Arsitektur Sistem](#Diagram-Arsitektur-Sistem)
 - [Hardware](#Hardware)
 - [Desain 3D](#Desain-3D)
 - [Desain UI UX](#Desain-UI-UX)
-- [Blok Diagram](#Blok-Diagram)
-- [Diagram Arsitektur Sistem](#Diagram-Arsitektur-Sistem)
 
 ## Komponen Yang Digunakan
 1.Hardware
@@ -83,7 +83,13 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 - Paku Pines
 - Cat putih
 - Timah
-- Solasi 
+- Solasi
+
+## Blok Diagram
+<img src="ASSETS/Blok Diagram.png" width = 700>
+
+## Diagram Arsitektur Sistem
+<img src="ASSETS/Diagram Arsitektur Sistem.png" width = 700>
 
 ## [Hardware](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/HARDWARE)
 
@@ -126,11 +132,7 @@ Berikut ini adalah UI/UX Web Packlock.
 <img src="UI-UX/Web Packlock Final.png">
 </div>
 
-## Blok Diagram
-<img src="ASSETS/Blok Diagram.png" width = 700>
 
-## Diagram Arsitektur Sistem
-<img src="ASSETS/Diagram Arsitektur Sistem.png" width = 700>
 
 
 
