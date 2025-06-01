@@ -39,8 +39,8 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 - [Blok Diagram](#Blok-Diagram)
 - [Diagram Arsitektur Sistem](#Diagram-Arsitektur-Sistem)
 - [Hardware](#Hardware)
-- [Desain 3D](#Desain-3D)
 - [Desain UI UX](#Desain-UI-UX)
+- [Desain 3D](#Desain-3D)
 
 ## Komponen Yang Digunakan
 1.Hardware
@@ -113,6 +113,14 @@ Berikut ini adalah hasil cetak dari rangkaian Smart Kotak Paket Berbasis IoT men
 <img src="HARDWARE/PCB_Jadi_Final.jpg" width = 700>
 </div>
 
+## [Desain UI UX](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/UI-UX)
+
+Berikut ini adalah UI/UX Web Packlock.
+<div align="center">
+<img src="UI-UX/Web Packlock Final.png">
+</div>
+
+
 ## [Desain 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESAIN%203D)
 
 Berikut ini adalah Desain 3D Packlock Bagian Dalam.
@@ -125,12 +133,6 @@ Berikut ini adalah Desain 3D Packlock Tampak Depan.
 <img src="DESAIN 3D/Design 0.2 Tampak Depan.png" width = 700>
 </div>
 
-## [Desain UI UX](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/UI-UX)
-
-Berikut ini adalah UI/UX Web Packlock.
-<div align="center">
-<img src="UI-UX/Web Packlock Final.png">
-</div>
 
 
 
