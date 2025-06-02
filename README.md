@@ -46,6 +46,18 @@ https://vt.tiktok.com/ZSkY1pHNX/
 
 https://www.canva.com/design/DAGpCFjL8s4/J2JU336eNsQ9mIj8pktKxA/edit?utm_content=DAGpCFjL8s4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
+## Link Figma
+
+https://www.figma.com/design/fq3XM4EmNfqJVly56ajVYE/Packlock?node-id=0-1&t=N5Q5iODnZTlXCq0t-1
+
+## Link Thingiverse 
+
+https://www.thingiverse.com/setyoo_io/collections/43256436/things
+
+## Link Wokwi
+
+https://wokwi.com/projects/429229658305672193
+
 
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
@@ -142,8 +154,6 @@ Berikut ini adalah UI/UX Web Packlock.
 
 
 ## [Desain 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESAIN%203D)
-
-Link Thingiverse https://www.thingiverse.com/setyoo_io/collections/43256436/things
 
 Berikut ini adalah Desain 3D Packlock Bagian Dalam.
 <div align="center">
