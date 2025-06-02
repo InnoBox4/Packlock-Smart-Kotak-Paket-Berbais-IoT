@@ -34,6 +34,19 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 |Reed Switch + Magnet | deteksi pintu belakang terbuka/tertutup)|
 |Servo Motor (SG90 / MG90S)|untuk membuka pintu|
 
+## Cara kerja Packlock
+
+https://github.com/user-attachments/assets/c9181a2b-23b7-4780-8032-19ebb1beb945
+
+## Iklan Produk Packlock
+
+https://vt.tiktok.com/ZSkY1pHNX/
+
+## PPT Packlock
+
+https://www.canva.com/design/DAGpCFjL8s4/J2JU336eNsQ9mIj8pktKxA/edit?utm_content=DAGpCFjL8s4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
 - [Blok Diagram](#Blok-Diagram)
@@ -147,18 +160,6 @@ https://github.com/user-attachments/assets/38ecc393-ebad-4563-a7b1-a252cfec6f6e
 ## Desain Yang Sudah Jadi
 
 ![Hasil Jadi](https://github.com/user-attachments/assets/cfafffb8-6cee-45e4-b4d6-4178a3a0d831)
-
-## Cara kerja Packlock
-
-https://github.com/user-attachments/assets/c9181a2b-23b7-4780-8032-19ebb1beb945
-
-## Iklan Produk Packlock
-
-https://vt.tiktok.com/ZSkY1pHNX/
-
-## PPT Packlock
-
-https://www.canva.com/design/DAGpCFjL8s4/J2JU336eNsQ9mIj8pktKxA/edit?utm_content=DAGpCFjL8s4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
 
