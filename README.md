@@ -143,6 +143,8 @@ Berikut ini adalah UI/UX Web Packlock.
 
 ## [Desain 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESAIN%203D)
 
+Link Thingiverse https://www.thingiverse.com/setyoo_io/collections/43256436/things
+
 Berikut ini adalah Desain 3D Packlock Bagian Dalam.
 <div align="center">
 <img src="DESAIN 3D/Design 0.2 Bagian Dalam.png" width = 700>
@@ -152,8 +154,6 @@ Berikut ini adalah Desain 3D Packlock Tampak Depan.
 <div align="center">
 <img src="DESAIN 3D/Design 0.2 Tampak Depan.png" width = 700>
 </div>
-
-Link Thingiverse https://www.thingiverse.com/setyoo_io/collections/43256436/things
 
 Berikut ini adalah pembuatan Desain 3D Packlock.
 
