@@ -1,0 +1,154 @@
+/ === Pin Definitions ===
+#define INFRARED_PIN         6   // Digital
+#define TRIG_PIN             2   // Digital
+#define ECHO_PIN             3   // Digital
+#define SERVO_PIN_OC1A       9   // OC1A (Timer1 PWM output)
+
+// === Variabel Status ===
+int statusPintuDepan = 0;
+int statusPaket = 0;
+bool resetDiminta = false;
+bool ultrasonikTriggered = false;
+
+unsigned long previousMillis = 0;
+const long interval = 1000; // 1 detik
+const int jarakThreshold = 3; // cm
+
+void setup() {
+  // === Serial Init ===
+  UBRR0H = 0;
+  UBRR0L = 103; // Baud 9600 @ 16MHz
+  UCSR0B = (1 << RXEN0) | (1 << TXEN0); // Enable RX and TX
+  UCSR0C = (1 << UCSZ01) | (1 << UCSZ00); // 8-bit data
+
+  // === Pin Init ===
+  DDRD &= ~(1 << INFRARED_PIN);      // Infrared input
+  PORTD |= (1 << REED_BELAKANG_PIN); // Pull-up aktif
+  DDRD |= (1 << TRIG_PIN);           // Trig output
+  DDRD &= ~(1 << ECHO_PIN);          // Echo input
+
+  DDRB |= (1 << PB1); // PB1 = pin 9 (OC1A) sebagai output PWM
+
+  // === Timer1 untuk Servo ===
+  TCCR1A = (1 << COM1A1) | (1 << WGM11); // Fast PWM non-inverting
+  TCCR1B = (1 << WGM13) | (1 << WGM12) | (1 << CS11); // Mode 14, prescaler 8
+  ICR1 = 40000; // 20ms period @ 2MHz
+
+  // Tutup pintu saat awal
+  tutupPintu();
+}
+
+void loop() {
+  // === Serial Input ===
+  if (UCSR0A & (1 << RXC0)) {
+    String cmd = bacaSerial();
+    cmd.trim();
+
+    if (cmd == "buka" && statusPintuDepan == 0) {
+      bukaPintu();
+      ultrasonikTriggered = false;
+    } else if (cmd == "tutup" && statusPintuDepan == 1) {
+      tutupPintu();
+      ultrasonikTriggered = false;
+    } else if (cmd == "reset_paket") {
+      resetDiminta = true;
+    }
+  }
+
+  // === Deteksi Paket (IR) ===
+  if (resetDiminta) {
+    if (statusPaket != 0) {
+      statusPaket = 0;
+      kirimStatus();
+    }
+    resetDiminta = false;
+  } else if (statusPaket == 0) {
+    if (!(PIND & (1 << INFRARED_PIN))) {
+      statusPaket = 1;
+      kirimStatus();
+    }
+  }
+
+  // === Sensor Ultrasonik ===
+  int jarak = bacaJarak();
+  if (jarak > 0 && jarak <= jarakThreshold) {
+    if (!ultrasonikTriggered) {
+      if (statusPintuDepan == 0) bukaPintu();
+      else tutupPintu();
+      ultrasonikTriggered = true;
+    }
+  } else {
+    ultrasonikTriggered = false;
+  }
+
+  // === Kirim Status Berkala ===
+  unsigned long currentMillis = millis();
+  if (currentMillis - previousMillis >= interval) {
+    previousMillis = currentMillis;
+    kirimStatus();
+  }
+}
+
+// ==== PWM Servo ====
+void setSudutServo(int derajat) {
+  // 0° = 1000, 180° = 5000
+  OCR1A = 1000 + ((long)derajat * 4000) / 180;
+}
+
+void bukaPintu() {
+  setSudutServo(90); // Bisa disesuaikan
+  statusPintuDepan = 1;
+  delay(500);
+  kirimStatus();
+}
+
+void tutupPintu() {
+  setSudutServo(0);
+  statusPintuDepan = 0;
+  delay(500);
+  kirimStatus();
+}
+
+// ==== Kirim Status ke Serial ====
+void kirimSerial(const char* str) {
+  while (*str) {
+    while (!(UCSR0A & (1 << UDRE0)));
+    UDR0 = *str++;
+  }
+}
+
+void kirimStatus() {
+  kirimSerial("status_pintu_depan=");
+  kirimSerial(statusPintuDepan ? "Terbuka\n" : "Tertutup\n");
+
+  kirimSerial("status_paket=");
+  kirimSerial(statusPaket ? "Ada\n" : "Tidak Ada\n");
+}
+
+// ==== Baca Perintah Serial ====
+String bacaSerial() {
+  char buf[64];
+  byte idx = 0;
+  while (UCSR0A & (1 << RXC0)) {
+    char c = UDR0;
+    if (c == '\n' || idx >= 63) break;
+    buf[idx++] = c;
+  }
+  buf[idx] = '\0';
+  return String(buf);
+}
+
+// ==== Baca Jarak Ultrasonik ====
+int bacaJarak() {
+  PORTD &= ~(1 << TRIG_PIN);
+  delayMicroseconds(2);
+  PORTD |= (1 << TRIG_PIN);
+  delayMicroseconds(10);
+  PORTD &= ~(1 << TRIG_PIN);
+
+  unsigned long duration = pulseIn(ECHO_PIN, HIGH, 20000); // max 20ms
+  if (duration == 0) return -1;
+
+  int jarak = duration * 0.034 / 2;
+  return jarak;
+}
