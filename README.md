@@ -133,8 +133,7 @@ Berikut ini adalah Desain 3D Packlock Tampak Depan.
 <img src="DESAIN 3D/Design 0.2 Tampak Depan.png" width = 700>
 </div>
 
-## Tutorial Pembuatan Packlock
-
+Berikut ini adalah pembuatan Desain 3D Packlock.
 https://github.com/user-attachments/assets/38ecc393-ebad-4563-a7b1-a252cfec6f6e
 
 
