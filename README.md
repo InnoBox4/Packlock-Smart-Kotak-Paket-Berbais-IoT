@@ -111,6 +111,10 @@ https://wokwi.com/projects/429229658305672193
 - Timah
 - Solasi
 
+## Desain Yang Sudah Jadi
+
+![Hasil Jadi](https://github.com/user-attachments/assets/cfafffb8-6cee-45e4-b4d6-4178a3a0d831)
+
 ## Blok Diagram
 <img src="ASSETS/Blok Diagram.png" width = 700>
 
@@ -169,10 +173,6 @@ Berikut ini adalah pembuatan Desain 3D Packlock.
 
 https://github.com/user-attachments/assets/38ecc393-ebad-4563-a7b1-a252cfec6f6e
 
-
-## Desain Yang Sudah Jadi
-
-![Hasil Jadi](https://github.com/user-attachments/assets/cfafffb8-6cee-45e4-b4d6-4178a3a0d831)
 
 
 
