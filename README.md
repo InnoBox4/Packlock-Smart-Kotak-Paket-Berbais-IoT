@@ -41,6 +41,7 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 - [Hardware](#Hardware)
 - [Desain UI UX](#Desain-UI-UX)
 - [Desain 3D](#Desain-3D)
+- [Desain Yang Sudah Jadi](#Desain-Yang-Sudah-Jadi)
 
 ## Komponen Yang Digunakan
 1.Hardware
@@ -137,7 +138,7 @@ Berikut ini adalah pembuatan Desain 3D Packlock.
 
 https://github.com/user-attachments/assets/38ecc393-ebad-4563-a7b1-a252cfec6f6e
 
-## Design yang sudah jadi
+## Desain Yang Sudah Jadi
 
 ![Hasil Jadi](https://github.com/user-attachments/assets/cfafffb8-6cee-45e4-b4d6-4178a3a0d831)
 
