@@ -111,12 +111,12 @@ Berikut ini adalah hasil 3D dari rangkaian Smart Kotak Paket Berbasis IoT menggu
 
 Berikut ini adalah hasil cetak dari rangkaian Smart Kotak Paket Berbasis IoT menggunakan software KiCad.
 <div align="center">
-<img src="HARDWARE/Hardware_Packlock.jpg" width = 700>
+<img src="HARDWARE/PCB_Jadi_Final.jpg" width = 700>
 </div>
 
 Berikut ini adalah hardware yang sudah terpasang di Packlock.
 <div align="center">
-<img src="HARDWARE/PCB_Jadi_Final.jpg" width = 700>
+<img src="HARDWARE/Hardware_Packlock.jpg" width = 700>
 </div>
 
 
