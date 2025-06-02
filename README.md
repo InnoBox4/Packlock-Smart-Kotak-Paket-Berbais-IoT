@@ -137,7 +137,9 @@ Berikut ini adalah pembuatan Desain 3D Packlock.
 
 https://github.com/user-attachments/assets/38ecc393-ebad-4563-a7b1-a252cfec6f6e
 
+## Design yang sudah jadi
 
+![Hasil Jadi](https://github.com/user-attachments/assets/cfafffb8-6cee-45e4-b4d6-4178a3a0d831)
 
 
 
