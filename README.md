@@ -58,6 +58,10 @@ https://github.com/user-attachments/assets/c9181a2b-23b7-4780-8032-19ebb1beb945
 
 [Simulasi Program di Wokwi](https://wokwi.com/projects/429229658305672193)
 
+## Video Simulasi Program
+
+[Video Simulasi Program](https://github.com/user-attachments/assets/82a5f85e-70d9-47c1-b36e-2be93320dba2)
+
 
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
@@ -156,10 +160,6 @@ Berikut ini adalah UI/UX Web Packlock.
 <img src="UI-UX/Web Packlock Final.png">
 </div>
 
-[Video Simulasi](ASSETS/Video Simulasi Program.mkv)
-
-
-
 ## [Desain 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESAIN%203D)
 
 Berikut ini adalah Desain 3D Packlock Bagian Dalam.
@@ -175,12 +175,6 @@ Berikut ini adalah Desain 3D Packlock Tampak Depan.
 Berikut ini adalah pembuatan Desain 3D Packlock.
 
 https://github.com/user-attachments/assets/38ecc393-ebad-4563-a7b1-a252cfec6f6e
-
-
-
-
-
-
 
 
 
