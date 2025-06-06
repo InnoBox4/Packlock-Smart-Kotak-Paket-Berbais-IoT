@@ -40,7 +40,7 @@ https://github.com/user-attachments/assets/c9181a2b-23b7-4780-8032-19ebb1beb945
 
 ## Iklan Produk Packlock
 
-https://vt.tiktok.com/ZSkY1pHNX/
+[Video Iklan Packlock](https://youtube.com/shorts/VkG0_1tyrqw?feature=share)
 
 ## PPT Packlock
 
