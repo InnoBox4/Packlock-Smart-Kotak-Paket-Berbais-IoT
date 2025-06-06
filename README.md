@@ -40,23 +40,23 @@ https://github.com/user-attachments/assets/c9181a2b-23b7-4780-8032-19ebb1beb945
 
 ## Iklan Produk Packlock
 
-[Video Iklan Packlock](https://youtube.com/shorts/VkG0_1tyrqw?feature=share)
+[Video Iklan Produk Packlock](https://youtube.com/shorts/VkG0_1tyrqw?feature=share)
 
 ## PPT Packlock
 
-https://www.canva.com/design/DAGpCFjL8s4/J2JU336eNsQ9mIj8pktKxA/edit?utm_content=DAGpCFjL8s4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+[PPT Packlock](https://www.canva.com/design/DAGpCFjL8s4/J2JU336eNsQ9mIj8pktKxA/edit?utm_content=DAGpCFjL8s4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-## Link Figma
+## Desain App di Figma
 
-https://www.figma.com/design/fq3XM4EmNfqJVly56ajVYE/Packlock?node-id=0-1&t=N5Q5iODnZTlXCq0t-1
+[Desain App Packlock di Figma](https://www.figma.com/design/fq3XM4EmNfqJVly56ajVYE/Packlock?node-id=0-1&t=N5Q5iODnZTlXCq0t-1)
 
-## Link Thingiverse 
+## Desain 3D di Thingiverse 
 
-https://www.thingiverse.com/setyoo_io/collections/43256436/things
+[Desain 3D di Thingiverse]([https://wokwi.com/projects/429229658305672193](https://www.thingiverse.com/setyoo_io/collections/43256436/things))
 
-## Link Wokwi
+## Simulasi Program di Wokwi
 
-https://wokwi.com/projects/429229658305672193
+[Simulasi Program di Wokwi](https://wokwi.com/projects/429229658305672193)
 
 
 ## Daftar Isi
