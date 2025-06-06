@@ -52,7 +52,7 @@ https://github.com/user-attachments/assets/c9181a2b-23b7-4780-8032-19ebb1beb945
 
 ## Desain 3D di Thingiverse 
 
-[Desain 3D di Thingiverse]([https://wokwi.com/projects/429229658305672193](https://www.thingiverse.com/setyoo_io/collections/43256436/things))
+[Desain 3D di Thingiverse](https://www.thingiverse.com/setyoo_io/collections/43256436/things)
 
 ## Simulasi Program di Wokwi
 
