@@ -156,9 +156,7 @@ Berikut ini adalah UI/UX Web Packlock.
 <img src="UI-UX/Web Packlock Final.png">
 </div>
 
-<div align="center">
-<img src="ASSETS/Video Simulasi Program.mkv">
-</div>
+[Video Simulasi](ASSETS/Video Simulasi Program.mkv)
 
 
 
