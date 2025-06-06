@@ -156,6 +156,11 @@ Berikut ini adalah UI/UX Web Packlock.
 <img src="UI-UX/Web Packlock Final.png">
 </div>
 
+<div align="center">
+<img src="ASSETS/Video Simulasi Program.mkv">
+</div>
+
+
 
 ## [Desain 3D](https://github.com/InnoBox4/Packlock-Smart-Kotak-Paket-Berbais-IoT/tree/main/DESAIN%203D)
 
