@@ -1,7 +1,5 @@
 <img src="ASSETS/Flyer Packlock.jpg">
 
-![Flyer Packlock](https://github.com/user-attachments/assets/ff4af049-1e61-46fe-9a5c-0928b137bbc4)
-
 # Packlock
 ## Smart-Kotak-Paket-Berbasis-IoT
 
@@ -35,6 +33,8 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 |Sensor Infrared (IR) Proximity FC-51 |deteksi paket masuk|
 |Reed Switch + Magnet | deteksi pintu belakang terbuka/tertutup)|
 |Servo Motor (SG90 / MG90S)|untuk membuka pintu|
+
+![Flyer Packlock](https://github.com/user-attachments/assets/ff4af049-1e61-46fe-9a5c-0928b137bbc4)
 
 ## Cara kerja Packlock
 
