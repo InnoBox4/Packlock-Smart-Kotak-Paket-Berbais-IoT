@@ -1,5 +1,7 @@
 <img src="ASSETS/Flyer Packlock.jpg">
 
+![Flyer Packlock](https://github.com/user-attachments/assets/ff4af049-1e61-46fe-9a5c-0928b137bbc4)
+
 # Packlock
 ## Smart-Kotak-Paket-Berbasis-IoT
 
