@@ -34,6 +34,8 @@ Web dashboard PackLock dibangun menggunakan PHP yang terhubung ke database untuk
 |Reed Switch + Magnet | deteksi pintu belakang terbuka/tertutup)|
 |Servo Motor (SG90 / MG90S)|untuk membuka pintu|
 
+## Flyer Packlock
+
 ![Flyer Packlock](https://github.com/user-attachments/assets/ff4af049-1e61-46fe-9a5c-0928b137bbc4)
 
 ## Cara kerja Packlock
